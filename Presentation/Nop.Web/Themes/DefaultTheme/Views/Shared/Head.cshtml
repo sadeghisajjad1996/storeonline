@@ -1,0 +1,32 @@
+﻿@using Nop.Core
+@using Nop.Services.Helpers
+@using Nop.Web.Framework.UI
+@inject IWorkContext workContext
+@inject IThemeContext themeContext
+@inject IUserAgentHelper userAgentHelper
+@{
+    var supportRtl = workContext.WorkingLanguage.Rtl;
+    var themeName = themeContext.WorkingThemeName;
+
+    //add main CSS file
+    if (supportRtl)
+    {
+        Html.AppendCssFileParts($"~/Themes/{themeName}/css/slide-menu.min.css");
+        Html.AppendCssFileParts($"~/Themes/{themeName}/css/font-awesome.min.css");
+        Html.AppendCssFileParts($"~/Themes/{themeName}/css/demo.css");
+        Html.AppendCssFileParts($"~/Themes/{themeName}/css/style.css");
+        Html.AppendCssFileParts($"~/Themes/{themeName}/css/plugins.css");
+    }
+    else
+    {
+        Html.AppendCssFileParts($"~/Themes/{themeName}/css/slide-menu.min.css");
+        Html.AppendCssFileParts($"~/Themes/{themeName}/css/font-awesome.min.css");
+        Html.AppendCssFileParts($"~/Themes/{themeName}/css/demo.css");
+        Html.AppendCssFileParts($"~/Themes/{themeName}/css/style.css");
+        Html.AppendCssFileParts($"~/Themes/{themeName}/css/plugins.css");
+    }
+    //add jQuery UI css file
+
+    //Last ver ss
+    //Html.AppendCssFileParts("~/lib/jquery-ui/jquery-ui-1.12.1.custom/jquery-ui.min.css");
+}

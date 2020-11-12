@@ -1,22 +1,36 @@
 ﻿@model AdminHeaderLinksModel
 @if (Model.IsCustomerImpersonated || Model.DisplayAdminLink)
 {
-    <div class="admin-header-links">
+
+    <div class="row align-items-center">
         @if (Model.IsCustomerImpersonated)
         {
-            <div class="impersonate">
-                <span>@string.Format(T("Account.ImpersonatedAs").Text, Model.ImpersonatedCustomerName)</span>
-                <a href="@Url.RouteUrl("Logout")" class="finish-impersonation" title="@T("Account.ImpersonatedAs.Finish.Hint")">@T("Account.ImpersonatedAs.Finish")</a>
+            <div class="col-lg-2 col-md-3">
+                <div class="antomi_message">
+                    <span>@string.Format(T("Account.ImpersonatedAs").Text, Model.ImpersonatedCustomerName)</span>
+                    <a href="@Url.RouteUrl("Logout")" class="finish-impersonation" title="@T("Account.ImpersonatedAs.Finish.Hint")">@T("Account.ImpersonatedAs.Finish")</a>
+                </div>
             </div>
         }
         @if (Model.DisplayAdminLink)
         {
-            <a href="@Url.Content("~/Admin")" class="administration">@T("Account.Administration")</a>
+            <div class="col-lg-2 col-md-3">
+                <div class="antomi_message">
+                    <a href="@Url.Content("~/Admin")" class="administration">@T("Account.Administration")</a>
+                </div>
+            </div>
         }
         @if (!string.IsNullOrEmpty(Model.EditPageUrl))
         {
-            <a href="@Model.EditPageUrl" class="manage-page">@T("Common.ManagePage")</a>
+            <div class="col-lg-2 col-md-3">
+                <div class="antomi_message">
+                    <a href="@Model.EditPageUrl" class="manage-page">@T("Common.ManagePage")</a>
+                </div>
+            </div>
         }
         @await Component.InvokeAsync("Widget", new { widgetZone = PublicWidgetZones.AdminHeaderLinksAfter })
+
     </div>
+
+
 }

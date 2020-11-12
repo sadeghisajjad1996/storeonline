@@ -1,0 +1,5 @@
+﻿{
+  "DataConnectionString": "Data Source=(LocalDb)\\MSSQLLocalDb;Initial Catalog=sajjad;Integrated Security=True;Persist Security Info=False",
+  "DataProvider": "sqlserver",
+  "RawDataSettings": {}
+}

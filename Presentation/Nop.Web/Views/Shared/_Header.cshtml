@@ -1,25 +1,30 @@
-﻿<div class="header">
-    @await Component.InvokeAsync("Widget", new { widgetZone = PublicWidgetZones.HeaderBefore })
-    <div class="header-upper">
-        <div class="header-selectors-wrapper">
+﻿<div class="header_top">
+    <div class="row align-items-center">
+        <div class="col-lg-6 col-md-5">
+            @await Component.InvokeAsync("Widget", new { widgetZone = PublicWidgetZones.HeaderBefore })
             @await Component.InvokeAsync("TaxTypeSelector")
             @await Component.InvokeAsync("CurrencySelector")
             @await Component.InvokeAsync("LanguageSelector")
             @await Component.InvokeAsync("Widget", new { widgetZone = PublicWidgetZones.HeaderSelectors })
         </div>
-        <div class="header-links-wrapper">
-            @await Component.InvokeAsync("HeaderLinks")
-            @await Component.InvokeAsync("FlyoutShoppingCart")
+        <div class="col-lg-6 col-md-7">
+            <div class="header_top_settings text-right">
+                @await Component.InvokeAsync("HeaderLinks")
+                @await Component.InvokeAsync("FlyoutShoppingCart")
+            </div>
         </div>
     </div>
-    @await Component.InvokeAsync("Widget", new { widgetZone = PublicWidgetZones.HeaderMiddle })
-    <div class="header-lower">
-        <div class="header-logo">
-            @await Component.InvokeAsync("Logo")
-        </div>
-        <div class="search-box store-search-box">
-            @await Component.InvokeAsync("SearchBox")
-        </div>
-    </div>
-    @await Component.InvokeAsync("Widget", new { widgetZone = PublicWidgetZones.HeaderAfter })
 </div>
+
+@await Component.InvokeAsync("Widget", new { widgetZone = PublicWidgetZones.HeaderMiddle })
+<div class="header-lower">
+    <div class="header-logo">
+        @await Component.InvokeAsync("Logo")
+    </div>
+    <div class="search-box store-search-box">
+        @await Component.InvokeAsync("SearchBox")
+    </div>
+</div>
+@await Component.InvokeAsync("Widget", new { widgetZone = PublicWidgetZones.HeaderAfter })
+
+

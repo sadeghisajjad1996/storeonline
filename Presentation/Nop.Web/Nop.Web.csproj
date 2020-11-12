@@ -63,6 +63,14 @@
     <Folder Include="Plugins\" />
   </ItemGroup>
 
+  <ItemGroup>
+    <None Include="wwwroot\lib\js\main.js" />
+    <None Include="wwwroot\lib\js\map.js" />
+    <None Include="wwwroot\lib\js\plugins.js" />
+    <None Include="wwwroot\lib\js\rating.js" />
+    <None Include="wwwroot\lib\js\slide-menu.min.js" />
+  </ItemGroup>
+
   <!-- This target execute after "Build" target.
     We use it to clean up folder with plugins from unnecessary and obsolete libraries. -->
   <Target Name="NopTarget" AfterTargets="Build">
