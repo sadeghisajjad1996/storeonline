@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "nN6o+CsfUT0W+q2nY8NyJKHo2CAiJh1dLpl6O/pGtrq87gF2vOHULO4qm/9vF4uQcrBbgOorSbCTv1pF6UJH0Q==",
+  "dgSpecHash": "k3c0/S3WPojhskyTuu4Mi2zVbjuW8ndGJXDw9bP+d2cKcmEPaHTRyFwwYp6P3PudTqzkc69lsVI7NOh18Ca7Sw==",
   "success": true,
   "projectFilePath": "C:\\Users\\SURFACE\\Source\\Repos\\storeonline\\Plugins\\Nop.Plugin.Payments.CheckMoneyOrder\\Nop.Plugin.Payments.CheckMoneyOrder.csproj",
   "expectedPackageFiles": [

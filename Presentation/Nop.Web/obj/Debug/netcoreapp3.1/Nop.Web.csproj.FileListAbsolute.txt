@@ -1215,3 +1215,4 @@ C:\Users\SURFACE\Source\Repos\storeonline\Presentation\Nop.Web\obj\Debug\netcore
 C:\Users\SURFACE\Source\Repos\storeonline\Presentation\Nop.Web\obj\Debug\netcoreapp3.1\Nop.Web.dll
 C:\Users\SURFACE\Source\Repos\storeonline\Presentation\Nop.Web\obj\Debug\netcoreapp3.1\Nop.Web.pdb
 C:\Users\SURFACE\Source\Repos\storeonline\Presentation\Nop.Web\obj\Debug\netcoreapp3.1\Nop.Web.genruntimeconfig.cache
+C:\Users\SURFACE\Source\Repos\storeonline\Presentation\Nop.Web\obj\Debug\netcoreapp3.1\scopedcss\bundle\Nop.Web.styles.css
