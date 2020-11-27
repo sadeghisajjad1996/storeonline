@@ -2,25 +2,9 @@
 <form asp-route="ProductSearch" method="get" id="small-search-box-form">
     @if (Model.ShowSearchBox)
     {
-        <div class="hover_category">
-            <label for="categori2"></label>
-            <select class="select_option" name="select" id="categori2" style="display: none;">
-                <option selected="" value="1">همه دسته ها</option>
-                <option value="2">لوازم جانبی</option>
-            </select>
-            <div class="nice-select select_option open" tabindex="0">
-                <span class="current">همه دسته ها</span>
-                <ul class="list">
-                    <li data-value="1" class="option selected focus">همه دسته ها</li>
-                    <li data-value="2" class="option">لوازم جانبی</li>
-                </ul>
-            </div>
-        </div>
-        <div class="search_box">
-            <input type="text" id="small-searchterms" autocomplete="off" name="q" placeholder="@T("Search.SearchBox.Tooltip")" aria-label="@T("Search.SearchBox.Text.Label")" />
-            @await Component.InvokeAsync("Widget", new { widgetZone = PublicWidgetZones.SearchBoxBeforeSearchButton })
-            <button type="submit">@T("Search.Button")</button>
-        </div>
+        <input type="text" class="search-box-text" id="small-searchterms" autocomplete="off" name="q" placeholder="@T("Search.SearchBox.Tooltip")" aria-label="@T("Search.SearchBox.Text.Label")" />
+        @await Component.InvokeAsync("Widget", new { widgetZone = PublicWidgetZones.SearchBoxBeforeSearchButton })
+        <input type="submit" class="button-1 search-box-button" value="@T("Search.Button")"/>
         @if (Model.SearchTermMinimumLength > 0)
         {
             <script asp-location="Footer">
