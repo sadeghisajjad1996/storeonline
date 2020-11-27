@@ -1,7 +1,6 @@
 ﻿@model HeaderLinksModel
 @inject Nop.Core.IWebHelper webHelper
 
-<div class="header-links">
     <ul>
         @await Component.InvokeAsync("Widget", new { widgetZone = PublicWidgetZones.HeaderLinksBefore })
         @if (Model.IsAuthenticated)
@@ -75,4 +74,3 @@
             });
         </script>
     }
-</div>
