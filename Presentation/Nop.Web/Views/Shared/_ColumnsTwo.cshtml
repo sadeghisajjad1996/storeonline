@@ -31,8 +31,16 @@
 @if (IsSectionDefined("Breadcrumb"))
 {
     @section Breadcrumb {
-        @RenderSection("Breadcrumb")
-    } 
+        <div class="breadcrumbs_area">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12">
+                        @RenderSection("Breadcrumb")
+                    </div>
+                </div>
+            </div>
+        </div>
+    }
 }
 <div class="side-2">
     @if (IsSectionDefined("left"))

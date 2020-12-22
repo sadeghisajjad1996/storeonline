@@ -1,26 +1,25 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\SURFACE\\Source\\Repos\\storeonline\\Plugins\\Nop.Plugin.Payments.CheckMoneyOrder\\Nop.Plugin.Payments.CheckMoneyOrder.csproj": {}
+    "C:\\Users\\Masoud\\source\\repos\\storeonline\\Plugins\\Nop.Plugin.Payments.CheckMoneyOrder\\Nop.Plugin.Payments.CheckMoneyOrder.csproj": {}
   },
   "projects": {
-    "C:\\Users\\SURFACE\\Source\\Repos\\storeonline\\Libraries\\Nop.Core\\Nop.Core.csproj": {
+    "C:\\Users\\Masoud\\source\\repos\\storeonline\\Libraries\\Nop.Core\\Nop.Core.csproj": {
       "version": "4.3.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\SURFACE\\Source\\Repos\\storeonline\\Libraries\\Nop.Core\\Nop.Core.csproj",
+        "projectUniqueName": "C:\\Users\\Masoud\\source\\repos\\storeonline\\Libraries\\Nop.Core\\Nop.Core.csproj",
         "projectName": "Nop.Core",
-        "projectPath": "C:\\Users\\SURFACE\\Source\\Repos\\storeonline\\Libraries\\Nop.Core\\Nop.Core.csproj",
-        "packagesPath": "C:\\Users\\SURFACE\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\SURFACE\\Source\\Repos\\storeonline\\Libraries\\Nop.Core\\obj\\",
+        "projectPath": "C:\\Users\\Masoud\\source\\repos\\storeonline\\Libraries\\Nop.Core\\Nop.Core.csproj",
+        "packagesPath": "C:\\Users\\Masoud\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Masoud\\source\\repos\\storeonline\\Libraries\\Nop.Core\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Microsoft\\Xamarin\\NuGet\\",
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\SURFACE\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Masoud\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+          "C:\\Program Files (x86)\\NuGet\\Config\\Telerik UI for WPF.20.2.513.0.config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.1"
@@ -112,27 +111,26 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.100\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.101\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\SURFACE\\Source\\Repos\\storeonline\\Libraries\\Nop.Data\\Nop.Data.csproj": {
+    "C:\\Users\\Masoud\\source\\repos\\storeonline\\Libraries\\Nop.Data\\Nop.Data.csproj": {
       "version": "4.3.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\SURFACE\\Source\\Repos\\storeonline\\Libraries\\Nop.Data\\Nop.Data.csproj",
+        "projectUniqueName": "C:\\Users\\Masoud\\source\\repos\\storeonline\\Libraries\\Nop.Data\\Nop.Data.csproj",
         "projectName": "Nop.Data",
-        "projectPath": "C:\\Users\\SURFACE\\Source\\Repos\\storeonline\\Libraries\\Nop.Data\\Nop.Data.csproj",
-        "packagesPath": "C:\\Users\\SURFACE\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\SURFACE\\Source\\Repos\\storeonline\\Libraries\\Nop.Data\\obj\\",
+        "projectPath": "C:\\Users\\Masoud\\source\\repos\\storeonline\\Libraries\\Nop.Data\\Nop.Data.csproj",
+        "packagesPath": "C:\\Users\\Masoud\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Masoud\\source\\repos\\storeonline\\Libraries\\Nop.Data\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Microsoft\\Xamarin\\NuGet\\",
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\SURFACE\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Masoud\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+          "C:\\Program Files (x86)\\NuGet\\Config\\Telerik UI for WPF.20.2.513.0.config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.1"
@@ -145,8 +143,8 @@
           "netcoreapp3.1": {
             "targetAlias": "netcoreapp3.1",
             "projectReferences": {
-              "C:\\Users\\SURFACE\\Source\\Repos\\storeonline\\Libraries\\Nop.Core\\Nop.Core.csproj": {
-                "projectPath": "C:\\Users\\SURFACE\\Source\\Repos\\storeonline\\Libraries\\Nop.Core\\Nop.Core.csproj"
+              "C:\\Users\\Masoud\\source\\repos\\storeonline\\Libraries\\Nop.Core\\Nop.Core.csproj": {
+                "projectPath": "C:\\Users\\Masoud\\source\\repos\\storeonline\\Libraries\\Nop.Core\\Nop.Core.csproj"
               }
             }
           }
@@ -200,27 +198,26 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.100\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.101\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\SURFACE\\Source\\Repos\\storeonline\\Libraries\\Nop.Services\\Nop.Services.csproj": {
+    "C:\\Users\\Masoud\\source\\repos\\storeonline\\Libraries\\Nop.Services\\Nop.Services.csproj": {
       "version": "4.3.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\SURFACE\\Source\\Repos\\storeonline\\Libraries\\Nop.Services\\Nop.Services.csproj",
+        "projectUniqueName": "C:\\Users\\Masoud\\source\\repos\\storeonline\\Libraries\\Nop.Services\\Nop.Services.csproj",
         "projectName": "Nop.Services",
-        "projectPath": "C:\\Users\\SURFACE\\Source\\Repos\\storeonline\\Libraries\\Nop.Services\\Nop.Services.csproj",
-        "packagesPath": "C:\\Users\\SURFACE\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\SURFACE\\Source\\Repos\\storeonline\\Libraries\\Nop.Services\\obj\\",
+        "projectPath": "C:\\Users\\Masoud\\source\\repos\\storeonline\\Libraries\\Nop.Services\\Nop.Services.csproj",
+        "packagesPath": "C:\\Users\\Masoud\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Masoud\\source\\repos\\storeonline\\Libraries\\Nop.Services\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Microsoft\\Xamarin\\NuGet\\",
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\SURFACE\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Masoud\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+          "C:\\Program Files (x86)\\NuGet\\Config\\Telerik UI for WPF.20.2.513.0.config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.1"
@@ -233,11 +230,11 @@
           "netcoreapp3.1": {
             "targetAlias": "netcoreapp3.1",
             "projectReferences": {
-              "C:\\Users\\SURFACE\\Source\\Repos\\storeonline\\Libraries\\Nop.Core\\Nop.Core.csproj": {
-                "projectPath": "C:\\Users\\SURFACE\\Source\\Repos\\storeonline\\Libraries\\Nop.Core\\Nop.Core.csproj"
+              "C:\\Users\\Masoud\\source\\repos\\storeonline\\Libraries\\Nop.Core\\Nop.Core.csproj": {
+                "projectPath": "C:\\Users\\Masoud\\source\\repos\\storeonline\\Libraries\\Nop.Core\\Nop.Core.csproj"
               },
-              "C:\\Users\\SURFACE\\Source\\Repos\\storeonline\\Libraries\\Nop.Data\\Nop.Data.csproj": {
-                "projectPath": "C:\\Users\\SURFACE\\Source\\Repos\\storeonline\\Libraries\\Nop.Data\\Nop.Data.csproj"
+              "C:\\Users\\Masoud\\source\\repos\\storeonline\\Libraries\\Nop.Data\\Nop.Data.csproj": {
+                "projectPath": "C:\\Users\\Masoud\\source\\repos\\storeonline\\Libraries\\Nop.Data\\Nop.Data.csproj"
               }
             }
           }
@@ -303,27 +300,26 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.100\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.101\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\SURFACE\\Source\\Repos\\storeonline\\Plugins\\Nop.Plugin.Payments.CheckMoneyOrder\\Nop.Plugin.Payments.CheckMoneyOrder.csproj": {
+    "C:\\Users\\Masoud\\source\\repos\\storeonline\\Plugins\\Nop.Plugin.Payments.CheckMoneyOrder\\Nop.Plugin.Payments.CheckMoneyOrder.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\SURFACE\\Source\\Repos\\storeonline\\Plugins\\Nop.Plugin.Payments.CheckMoneyOrder\\Nop.Plugin.Payments.CheckMoneyOrder.csproj",
+        "projectUniqueName": "C:\\Users\\Masoud\\source\\repos\\storeonline\\Plugins\\Nop.Plugin.Payments.CheckMoneyOrder\\Nop.Plugin.Payments.CheckMoneyOrder.csproj",
         "projectName": "Nop.Plugin.Payments.CheckMoneyOrder",
-        "projectPath": "C:\\Users\\SURFACE\\Source\\Repos\\storeonline\\Plugins\\Nop.Plugin.Payments.CheckMoneyOrder\\Nop.Plugin.Payments.CheckMoneyOrder.csproj",
-        "packagesPath": "C:\\Users\\SURFACE\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\SURFACE\\Source\\Repos\\storeonline\\Plugins\\Nop.Plugin.Payments.CheckMoneyOrder\\obj\\",
+        "projectPath": "C:\\Users\\Masoud\\source\\repos\\storeonline\\Plugins\\Nop.Plugin.Payments.CheckMoneyOrder\\Nop.Plugin.Payments.CheckMoneyOrder.csproj",
+        "packagesPath": "C:\\Users\\Masoud\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Masoud\\source\\repos\\storeonline\\Plugins\\Nop.Plugin.Payments.CheckMoneyOrder\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Microsoft\\Xamarin\\NuGet\\",
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\SURFACE\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Masoud\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+          "C:\\Program Files (x86)\\NuGet\\Config\\Telerik UI for WPF.20.2.513.0.config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.1"
@@ -336,8 +332,8 @@
           "netcoreapp3.1": {
             "targetAlias": "netcoreapp3.1",
             "projectReferences": {
-              "C:\\Users\\SURFACE\\Source\\Repos\\storeonline\\Presentation\\Nop.Web.Framework\\Nop.Web.Framework.csproj": {
-                "projectPath": "C:\\Users\\SURFACE\\Source\\Repos\\storeonline\\Presentation\\Nop.Web.Framework\\Nop.Web.Framework.csproj"
+              "C:\\Users\\Masoud\\source\\repos\\storeonline\\Presentation\\Nop.Web.Framework\\Nop.Web.Framework.csproj": {
+                "projectPath": "C:\\Users\\Masoud\\source\\repos\\storeonline\\Presentation\\Nop.Web.Framework\\Nop.Web.Framework.csproj"
               }
             }
           }
@@ -369,27 +365,26 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.100\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.101\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\SURFACE\\Source\\Repos\\storeonline\\Presentation\\Nop.Web.Framework\\Nop.Web.Framework.csproj": {
+    "C:\\Users\\Masoud\\source\\repos\\storeonline\\Presentation\\Nop.Web.Framework\\Nop.Web.Framework.csproj": {
       "version": "4.3.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\SURFACE\\Source\\Repos\\storeonline\\Presentation\\Nop.Web.Framework\\Nop.Web.Framework.csproj",
+        "projectUniqueName": "C:\\Users\\Masoud\\source\\repos\\storeonline\\Presentation\\Nop.Web.Framework\\Nop.Web.Framework.csproj",
         "projectName": "Nop.Web.Framework",
-        "projectPath": "C:\\Users\\SURFACE\\Source\\Repos\\storeonline\\Presentation\\Nop.Web.Framework\\Nop.Web.Framework.csproj",
-        "packagesPath": "C:\\Users\\SURFACE\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\SURFACE\\Source\\Repos\\storeonline\\Presentation\\Nop.Web.Framework\\obj\\",
+        "projectPath": "C:\\Users\\Masoud\\source\\repos\\storeonline\\Presentation\\Nop.Web.Framework\\Nop.Web.Framework.csproj",
+        "packagesPath": "C:\\Users\\Masoud\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Masoud\\source\\repos\\storeonline\\Presentation\\Nop.Web.Framework\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Microsoft\\Xamarin\\NuGet\\",
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\SURFACE\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Masoud\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+          "C:\\Program Files (x86)\\NuGet\\Config\\Telerik UI for WPF.20.2.513.0.config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.1"
@@ -402,14 +397,14 @@
           "netcoreapp3.1": {
             "targetAlias": "netcoreapp3.1",
             "projectReferences": {
-              "C:\\Users\\SURFACE\\Source\\Repos\\storeonline\\Libraries\\Nop.Core\\Nop.Core.csproj": {
-                "projectPath": "C:\\Users\\SURFACE\\Source\\Repos\\storeonline\\Libraries\\Nop.Core\\Nop.Core.csproj"
+              "C:\\Users\\Masoud\\source\\repos\\storeonline\\Libraries\\Nop.Core\\Nop.Core.csproj": {
+                "projectPath": "C:\\Users\\Masoud\\source\\repos\\storeonline\\Libraries\\Nop.Core\\Nop.Core.csproj"
               },
-              "C:\\Users\\SURFACE\\Source\\Repos\\storeonline\\Libraries\\Nop.Data\\Nop.Data.csproj": {
-                "projectPath": "C:\\Users\\SURFACE\\Source\\Repos\\storeonline\\Libraries\\Nop.Data\\Nop.Data.csproj"
+              "C:\\Users\\Masoud\\source\\repos\\storeonline\\Libraries\\Nop.Data\\Nop.Data.csproj": {
+                "projectPath": "C:\\Users\\Masoud\\source\\repos\\storeonline\\Libraries\\Nop.Data\\Nop.Data.csproj"
               },
-              "C:\\Users\\SURFACE\\Source\\Repos\\storeonline\\Libraries\\Nop.Services\\Nop.Services.csproj": {
-                "projectPath": "C:\\Users\\SURFACE\\Source\\Repos\\storeonline\\Libraries\\Nop.Services\\Nop.Services.csproj"
+              "C:\\Users\\Masoud\\source\\repos\\storeonline\\Libraries\\Nop.Services\\Nop.Services.csproj": {
+                "projectPath": "C:\\Users\\Masoud\\source\\repos\\storeonline\\Libraries\\Nop.Services\\Nop.Services.csproj"
               }
             }
           }
@@ -459,7 +454,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.100\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.101\\RuntimeIdentifierGraph.json"
         }
       }
     }

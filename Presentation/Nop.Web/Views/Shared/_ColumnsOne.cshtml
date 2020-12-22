@@ -4,10 +4,18 @@
 @if (IsSectionDefined("Breadcrumb"))
 {
     @section Breadcrumb {
-        @RenderSection("Breadcrumb")
+        <div class="breadcrumbs_area">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12">
+                        @RenderSection("Breadcrumb")
+                    </div>
+                </div>
+            </div>
+        </div>
     }
 }
-<div class="center-1">
+<div class="container">
     @await Component.InvokeAsync("Widget", new { widgetZone = PublicWidgetZones.MainColumnBefore })
     @RenderBody()
     @await Component.InvokeAsync("Widget", new { widgetZone = PublicWidgetZones.MainColumnAfter })

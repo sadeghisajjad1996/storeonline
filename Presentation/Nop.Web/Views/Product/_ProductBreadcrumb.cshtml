@@ -6,7 +6,7 @@
 }
 @if (Model.Enabled)
 {
-    <div class="breadcrumb">
+    <div class="breadcrumb_content">
             <ul itemscope itemtype="http://schema.org/BreadcrumbList">
                 @await Component.InvokeAsync("Widget", new { widgetZone = PublicWidgetZones.ProductBreadcrumbBefore, additionalData = Model })
                 <li>
